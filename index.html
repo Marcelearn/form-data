@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data-Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        Forms
+    </header>
+   
+    <div>
+
+    </div>
+    <form
+        action="https://formspree.io/f/mdobyvlz"
+        method="post"
+    >
+        
+        <div class="div-data">
+            <div class="h1-container">
+                
+                <h1>Personal Data</h1>
+               
+            </div>
+            <label>
+                <p>First name:</p> 
+                <input class="text" name="vorname" type="text">
+            </label>
+        
+            <label>
+                <p>Last name:</p> 
+                
+                <input class="text" name="nachaname" type="text">
+            </label>
+        
+            <label>
+                <p>Street:</p>
+                
+                <input class="text" name="strasse" type="text">
+            </label>
+        
+            <label>
+                <p>Zipcode:</p> 
+                
+                <input class="text" name="zipcode" type="text">
+            </label>
+       
+            <label>
+                <p>City:</p> 
+                
+                <input class="text" name="stadt" type="text">
+            </label>
+        
+            <label>
+                <p>Phone:</p> 
+                
+                <input class="text" name="phone" type="text">
+            </label>
+        
+            <label>
+                <p>Email:</p> 
+                
+                <input class="text" name="email" type="text">
+            </label>
+       
+            <label>
+                <p>Comments:</p> 
+                
+                <textarea name="message" placeholder="Tell us more about important colors, etc." cols="55" rows="6"></textarea>
+            </label>
+        
+
+        </div>
+           
+        <br>
+        
+        <div class="div-products">
+            <div class="h2-container">
+                <h2>Products</h2>
+
+            </div>
+   
+            <p>Web Design:</p> 
+            
+            <label>
+                <input name="webdesign" value="individual" type="radio"checked="checked">Individual
+                <input name="webdesign" value="template" type="radio">Template
+            </label>
+        
+            <p>Web Development:</p> 
+            
+           
+            <input type="checkbox" id="htmlcss" name="htmlcss">
+            <label for="htmlcss"> HTML & CSS </label><br>
+
+        
+        
+            <input type="checkbox" id="javascript" name="javascript">
+            <label for="javascript"> Javascript</label><br>
+
+        
+        
+            <input type="checkbox" id="mongodb" name="mongodb">
+            <label for="mongodb"> MongoDB</label>
+                
+            <p>Project Start:</p> 
+            
+            <label>
+                <input class="text" type="date" id="start" name="projectstart"> 
+            </label>
+            <br>
+        
+        
+            <p>Project End:</p> 
+            
+            <label>
+                <input class="text" type="date" id="start" name="projectend"> 
+            </label>
+
+         
+        
+            <p>Category:</p>
+            
+            <label>
+                <select class="text select" name="category" id="category">
+                    <option value="personal">Personal</option>
+                    <option value="objective">Objective</option>
+                </select>
+            </label>
+
+        </div> 
+        
+        
+        <button type="submit">Order our services</button>
+
+        
+    </form>
+    
+    
+</body>
+</html>
