@@ -21,7 +21,7 @@ header {
 
 }
 h1 {
-    color: rgb(57, 57, 173);
+    color: rgb(74, 74, 225);
     background: #fff;
     padding: 0 5px;
     font-size: large;
@@ -64,7 +64,7 @@ display: none;
 
 h2 {
     margin-left: 10px;
-    color: rgb(57, 57, 173);
+    color: rgb(74, 74, 225);
     padding: 0 5px;
     font-size: large;
     font-weight: 900;
